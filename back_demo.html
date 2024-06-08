@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	 <link rel="stylesheet" type="text/css" href="productentry.css">
+	<title>Admin Panel</title>
+	
+</head>
+<body style="background-image: url('E:/sarswaati/IMG-20180813-WA0017.jpg');">
+	<div align="center">
+	<table width="70%" border="7%" bgcolor="white" cellspacing="5" cellpadding="5" align="center">
+		<tr align="center" bgcolor="sky blue">
+			<td>
+	<h1 align="center">Product Entry</h1>
+</td>
+</tr>
+<tr>
+	<td align="center">
+		<form action="admincode.php" method="POST" enctype="multipart/form-data">
+<div class="product">
+
+		</br><label for="watch_name">Watch Name :</label>
+		<input type="text" name="watch_name" required="true"></br>
+
+		</br><div class="img">
+		<label for="image">Image:</label>
+		<input type="file" name="image" id="image" required="true">
+		</div></br>
+
+
+		</br><label for="price">Price :</label>
+		<input type="number" name="price" required="true"></br>
+
+	
+
+		</br><label for="category">Category :</label>
+			<select>
+				<a href=""><option value="">Man</option></a>
+				<a href=""><option value="">Women</option></a>
+				<a href=""><option value="">Kid</option></a>
+			</select>
+		</br>
+
+
+		</br><label for="information">Information :</label>
+		<input type="text" name="information" required="true"></br>
+
+
+		</br><label for="brand">Brand :</label>
+		<select>
+			<a href=""><option value="">Fastrack</option>
+				<a href=""><option value="">Technos</option>
+					<a href=""><option value="">Citizen</option>
+						<a href=""><option value="">Luminox</option>
+							<a href=""><option value="">Titan</option>
+		</select>	
+		</br>
+
+	</br><input type="submit" name="btnsubmit" value="Save" align="center"></br>
+</div>
+
+
+</td>
+</tr>
+</form>
+</table>
+</body>
+</html>

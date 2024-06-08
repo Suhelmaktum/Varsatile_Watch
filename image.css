@@ -1,0 +1,44 @@
+body{
+    background: pink url('/home/node16/Desktop/pink_flower_wallpaper_for_desktop.jpg');    
+}
+h1{
+        text-align: center;
+        background-color: blue;
+}
+
+.myform{
+        width: 400px;
+        margin-left: 400px;
+}
+
+.myform input{
+        display: block;
+
+}
+
+.myform input[type="text"]{
+        width: 100%;
+        padding: 15px;
+}
+
+.myform input[type="email"]{
+        width: 100%;
+        padding: 15px;}
+
+        .myform input[type="passward"]{
+        width: 100%;
+        padding: 15px;}
+
+        .myform input[type="radio"]{
+        display: inline;
+        padding: 15px;
+        margin: 0px 15px 15px 10px;
+}
+.myform input[type="type"]:focus{
+        background-color: lightblue;
+        border-color: pink;
+}
+.myform input[type="ratio"]:checked +label{
+        font-size: 10px;
+        font-width:bold;
+}

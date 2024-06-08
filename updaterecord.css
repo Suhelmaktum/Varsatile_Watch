@@ -1,0 +1,33 @@
+
+		body {
+			background-color: none;
+		}
+		*{
+			padding: 0px;
+			margin: 0px;
+		}
+		.cat{
+			width: 70%;
+			margin-left: 350px;
+			padding: 10px;
+
+		}
+		.cat label{
+			display: inline;
+			padding: 10px;
+			font-weight: bold;
+			font-size: 18px;
+		}
+		.cat input[type="text"]{
+			width: 50%;
+			padding:10px;
+		}
+		.cat button[type="submit"]{
+			display: inline;
+			padding: 10px;
+			margin-top: 10px;
+			margin-left: 130px;
+			width: 100px;
+			text-align: center;
+		}
+	

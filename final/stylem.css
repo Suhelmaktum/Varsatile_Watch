@@ -1,0 +1,37 @@
+body {
+
+  color: #f2efe2;
+  font-size: 15px;
+}
+ 
+ 
+button:focus {
+    outline: 0;
+}
+ 
+.mycontainer {
+    max-width: 200px;
+    margin: 0 auto;
+    padding: 15px 10px;
+    text-align: center;
+}
+ 
+ 
+.mywebapp {
+    margin: 1px auto;
+}
+ 
+#textbox {
+    margin: 5px 0;
+}
+ 
+@media (max-width: 100px) {
+    .mycontainer {
+        width: 20vw;
+        max-width: 20vw;
+    }
+ 
+    button {
+        margin-bottom: 10px;
+    }
+}

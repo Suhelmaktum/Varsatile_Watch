@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Admin Panel</title>
+	 <link rel="stylesheet" type="text/css" href="css/productentry.css">
+</head>
+<body>
+	<div align="center">
+	<table width="70%" border="7%" bgcolor="white" cellspacing="5" cellpadding="5" align="center">
+		<tr align="center" bgcolor="sky blue">
+			<td>
+	<h1 align="center">Product Entry</h1>
+</td>
+</tr>
+<tr>
+	<td align="center">
+		<form action="admincode.php" method="POST" enctype="multipart/form-data">
+<div class="product">
+
+		<label for="watch_name">Watch Name :</label>
+		<input type="text" name="watch_name" required="true"><br></br>
+
+		
+		<label for="image">Image:</label>
+		<input type="file" name="image" id="image" required="true"><br></br>
+		
+
+
+		<label for="price">Price :</label>
+		<input type="number" name="price" required="true" placeholder="price will be always positive"><br></br>
+
+	
+
+		<label for="category">Category :</label>
+			<select name="category">
+				<option value="Men">Men</option>
+				<option value="Women">Women</option>
+				
+			</select><br></br>
+	
+
+
+		<label for="information">Information :</label>
+		<textarea rows="8" cols="50" name="information" required="true"></textarea><br></br>
+
+
+		<label for="brand">Brand :</label>
+		<select name="brand">
+			<option value="Fastrack">Fastrack</option>
+			<option value="Sonata">Sonata</option>
+			<option value="Citizen">Citizen</option>
+			<option value="Fossil">Fossil</option>
+			<option value="Titan">Titan</option>
+		</select><br></br>	
+		
+
+
+	<input type="submit" name="btnsubmit" value="Save" align="center">
+</div>
+
+
+</td>
+</tr>
+</form>
+</table>
+</body>
+</html>

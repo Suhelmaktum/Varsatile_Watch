@@ -1,0 +1,52 @@
+		*{
+			padding: 0px;
+			margin: 0px;
+		}
+		.cat{
+			width: 70%;
+			margin-left: 350px;
+			padding: 10px;
+
+		}
+		.cat label{
+			display: block;
+			padding: 10px;
+			font-weight: bold;
+			font-size: 18px;
+		}
+		.cat input[type="text"]{
+			width: 50%;
+			padding:10px;
+		}
+		.cat button[type="submit"]{
+			display: block;
+			padding: 10px;
+			margin-top: 10px;
+			margin-left: 130px;
+			width: 100px;
+			text-align: center;
+		}
+		.catdisplay {
+			text-align: center;
+		}
+		.catdisplay h4{
+			background-color: lightblue;
+			color: darkblue;
+			font:bold;
+		}
+
+		.catdisplay table{
+			border: 1px solid black;
+			width: 80%;
+			margin-left: 250px;
+			background-color: lightgray;
+		}
+
+		.catdisplay a{
+			text-decoration: none;
+			color: black;
+			font-weight: bold;
+		}
+		.catdisplay a:hover{
+			background-color: lightgreen;
+		}

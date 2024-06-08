@@ -1,0 +1,42 @@
+
+		
+	*{
+   
+      margin: 12px;
+    }
+    .product{
+      width: 70%;
+    
+    }
+    .product label{
+      display:inline-table;
+      border-radius: 2px;
+      font-weight: bold;
+      font-size: 18px;
+      display: block;
+    }
+    .product input[type="text"],input[type="number"],input[type="file"]{
+      width: 50%;
+     border-radius: 2px;
+     display: block;
+    }
+    .product button[type="submit"]{
+      display: block;
+      margin-left: 130px;
+      width: 100px;
+      text-align: center;
+    }
+  .product button[type="submit"]{
+      display: block;
+      margin-left: 130px;
+      width: 100px;
+      text-align: center;
+    }
+    
+    select .category{
+ display: block;
+      margin-left: 130px;
+      width: 100px;
+      text-align: center;
+    }
+    }
